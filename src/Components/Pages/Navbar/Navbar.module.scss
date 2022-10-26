@@ -1,0 +1,18 @@
+.Navbar{
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    top:0;
+    bottom:0;
+    width: 25%;
+    animation: menuslide 1s;
+    z-index: 100;
+}
+@keyframes menuslide {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
